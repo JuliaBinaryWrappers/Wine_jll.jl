@@ -1,0 +1,26 @@
+[[Wine]]
+arch = "x86_64"
+git-tree-sha1 = "45fb7bcc548aeceb9bb1acbb6a70fc5154f917f6"
+os = "macos"
+
+    [[Wine.download]]
+    sha256 = "58b69decf4715891dbcfadc33f5564bfcfe287565aa5ae6ab5d2c014b798b4a2"
+    url = "https://github.com/JuliaBinaryWrappers/Wine_jll.jl/releases/download/Wine-v7.0.0-rc1+0/Wine.v7.0.0-rc1.x86_64-apple-darwin.tar.gz"
+[[Wine]]
+arch = "x86_64"
+git-tree-sha1 = "c697b5ebd6053573f8c89e428f372b6d29b62c91"
+libc = "glibc"
+os = "linux"
+
+    [[Wine.download]]
+    sha256 = "4b588f958ef4bbbf65812677520cc77d860326155cb3738b8bdb4bf0845079e3"
+    url = "https://github.com/JuliaBinaryWrappers/Wine_jll.jl/releases/download/Wine-v7.0.0-rc1+0/Wine.v7.0.0-rc1.x86_64-linux-gnu.tar.gz"
+[[Wine]]
+arch = "x86_64"
+git-tree-sha1 = "221bdc81976da1467f2fc487a68700b8d0e239b8"
+libc = "musl"
+os = "linux"
+
+    [[Wine.download]]
+    sha256 = "c5c01bdc5aee84a441a4ded01c7e01971e371f587f82e96bd5d53d8db0c198aa"
+    url = "https://github.com/JuliaBinaryWrappers/Wine_jll.jl/releases/download/Wine-v7.0.0-rc1+0/Wine.v7.0.0-rc1.x86_64-linux-musl.tar.gz"
